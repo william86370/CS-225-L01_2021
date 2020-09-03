@@ -36,8 +36,13 @@ public class GumBallMachineEC {
     public void inventory() {
         System.out.println("Printing Gumball Machines Inventory");
         System.out.println("------------ Gumball inventory ------------");
+        //Loop thorough All Gumballs and print Flavor
         for(int i =0;i<GumballCalculated.length;i++){
             System.out.println("| "+ (i+1)+".) "+ GumballCalculated[i]);
+        }
+        //Check for zero remaining
+        if(GumballsRemaining==0){
+            System.out.println("| 0 Gumballs Remaining");
         }
         System.out.println("--------------------------------------------\n");
     }
@@ -78,6 +83,8 @@ public class GumBallMachineEC {
             GumballsRemaining--;
         }
     }
+    //This function will take the old array in and return a new array,
+    //The new array will not contain the first index value.
     private String[] GumballArrayHelper(String[] oldGumArray){
         //make a new array with the size -1
         String[] NewGumarray = new String[oldGumArray.length-1];

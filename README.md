@@ -1,5 +1,9 @@
 # Intermediate Java Programming CS-225 Syllabus
 
+**Admin**: Fall SEM 2020 Section L01 3.00 Credits 08/31/2020 to 12/18/2020 Modified 08/31/2020
+
+**Meeting Time**: Class meets Wednesdays 5:30pm to 8:10pm
+
 **Textbook**:  Introduction to Java Programming and Data Structures, Comprehensive Version, 11th Edition 
 
 **Prerequisite**: _CS-130_

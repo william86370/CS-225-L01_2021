@@ -27,8 +27,12 @@ public class Main {
         machine2.insertCoin();
         //Call Shake Machine
         machine2.shakeMachine();
-        //Call Gumball Machine insertCoin()
-        machine2.insertCoin();
 
+        ////Call Gumball Machine insertCoin() 11 Times
+        for(int i=0;i<11;i++){
+            machine2.insertCoin();
+        }
+        //print Gumball Machines Inventory
+        machine2.inventory();
     }
 }
