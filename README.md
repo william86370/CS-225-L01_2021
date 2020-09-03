@@ -1,45 +1,37 @@
-# Introduction to Computer Security 3840 Syllabus
+# Intermediate Java Programming CS-225 Syllabus
 
-**Textbook**:  _Computer Security: Principles and Practice,_ 4th ed., by William Stallings and Lawrie Brown
+**Textbook**:  Introduction to Java Programming and Data Structures, Comprehensive Version, 11th Edition 
 
-**Course Description**: An introduction to the principle of computer security. Topics include computer and systems security, authentication, access control, malicious software, and software security. The course also examines how system designs, network protocols, and software engineering practices can result in vulnerabilities. The course explores how to design and implement systems to mitigate vulnerabilities. In addition, the course explores how to detect and mitigate vulnerabilities in existing systems.
+**Prerequisite**: _CS-130_
 
-**Prerequisite**: CS2430
+**Corequisite**: _CS-220_
+
+**Course Description**: This course provides a deeper look into the Java language with a special emphasis on object oriented design. Topics include multidimensional arrays, inheritance, interfaces, polymorphism, graphical user interfaces, exception handling, I/O, multithreading and Java Database Connectivity (JDBC). Programming projects are assigned as homework. Prerequisite: CS-130 Corequisite: CS-220. Offered spring semester only. (3-0-3)
 
 **Course Objectives**: The objectives of the course are to provide the student with an overview of the fundamental issues of information system security and assurance. Students will be exposed to the spectrum of security activities, methods, methodologies, and procedures through lectures, discussions, home works, labs and case studies, etc.
 
-**Student Learning Outcomes**: Upon completion of this course, students should be able to
+**Student Learning Outcomes**: Analyze a complex computing problem and to apply principles of computing and other relevant disciplines to identify solutions.
 
-1.  Use basic cryptographic techniques in software and system design.
-2.  Apply methods for authentication, access control, intrusion detection and prevention.
-3.  Identify and mitigate software security vulnerabilities in existing systems.
-4.  Learn coding styles that reduce the chance introducing vulnerabilities.
-5.  Evaluate the security risks of systems and perform security audits.
-6.  Understand the ethical and legal issues in system security.
+**Assignment Requirements:** Unless told otherwise, all papers are to be written in Word and use 12-pt font with standard margins, double-spaced. Title page, table of contents, and references do not count in the page limits as indicated for each assignment, project or exam. All are individual assignments, not group assignments or projects unless specifically noted to be a group assignment by your instructor. All assignments are to be uploaded via Learn@Capitol (Canvas). Assignments will not be accepted via email. 
 
-**Supplemental Materials:**
+**Grading:**
 
-Assignments may be made from the following readings.  _Note_: these readings are  _not_  required unless they are explicitly mentioned in the notes or an assignment.
+| Week | Topic/Assignment/Deliverables | Project Due |
+|---|---|---|
+| 1 | Java Language Revisited & Object Oriented Programing Part 1 |  NA
+| 2 | Object Oriented Programming Part 2 | OOP Project 1 due 
+| 3 | Exceptions and I/O | OOP Project 2 due 
+| 4 | Object Oriented Programming Part 3 |  Exception & IO Project due 
+| 5 | Most Useful Java Data Structures | OOP Project 3 due | 
+| 6 | Midterm Exam (in class) |  |
+| 7 | GUI applications w/ JavaFX 1 |  Data structure project due |
+| 8 | GUI applications w/ Java FX 2 | GUI project 1 due |
+| 9 | GUI applications w/ Java FX 3 | GUI project 2 due |
+| 10 | Concurrency and Parallelism with Threads | GUI project 3 due |
+| 11 | Sockets & Network Programming |  Threads project due |
+| 12 |  Database Programming w/ JDBC | Network project due |
+| 13 | Consuming and parsing APIs | JDBC project due |
+| 14 | Creating an API Part 1 (Fall reading days – class does not meet) |  API project 1 due |
+| 15 |  Creating an API Part 2 |  E.C API project 2 due |
+| 16 | Final Exam (in class) | E.C API project 3 due |
 
-1.  **_Fundamentals of Secure Computer Systems_**, Brett C. Tjaden, Franklin, Beedle & Associates, 2004, ISBN: 1-887902-66-X.
-2.  **_Security Engineering: A Guide to Building Dependable Distributed Systems_**, Ross Anderson, John Wiley & Sons, Inc., 2001, ISBN: 0-471-38922-6;
-3.  **_Security in Computing_**, third edition, Charles P. Pfleeger and Shari Lawrence Pfleeger, Prentice Hall, 2003, ISBN: 0-13-035548-8.
-4.  **_Applied Cryptography: Protocols, Algorithms and Source Code in C, Second Edition_**, Bruce Schneier, John Wiley & Sons, Inc., 1995 (2nd edition), ISBN: 0-471-11709-9.
-
-**Topics:**
-
-| Chapter | Topic | Chapter | Topic |
-|---|---|---|---|
-| 1 | Overview | 14 | IT Security Mgnmt and Risk Assessment |
-| 2 | Cryptographic Tools | 15 | IT Security Control, Plans, Procedures |
-| 3 | User Authentication | 16 | Physical Security: Skipped |
-| 4 | Access Control | 17 | Human Resources: Skipped |
-| 5 | Database Security | 18 | Security Auditing |
-| 6 | Malicious Software | 19 | Legal and Ethical |
-| 7 | Denial of Service | 20 | Symmetric Encryption |
-| 8 | Intrusion Detection | 21 | Public Key Encryption |
-| 9 | Firewall/IPS | 22 | Internet Security Protocols |
-| 10 | Buffer Overflow | 23 | Internet Authentications |
-| 11 | Software Security | 24 | Wireless Network Security |
-| 12 | OS Security | 25 | Linux Security |
-| 13 | Cloud and IoT Security | 26 | Windows Security |
