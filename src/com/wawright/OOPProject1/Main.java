@@ -1,7 +1,7 @@
 //CS-225-L01_2021_10.US
 //OOP Project 1
 //Developed by william Wright 9/2/2020
-package com.wawright;
+package com.wawright.OOPProject1;
 
 public class Main {
     public static void main(String[] args) {
